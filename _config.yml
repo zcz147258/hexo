@@ -79,6 +79,20 @@ aplayer:
   meting: true
   asset_inject: false
 
+douban:
+  user: mythsman
+  builtin: true
+  book:
+    title: 'book'
+    quote: '快来读书吧！'
+  movie:
+    title: 'movies'
+    quote: '电影就是生活!'
+  game:
+    title: 'game'
+    quote: '游戏人生!'
+  timeout: 10000 
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
