@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: mikasa博客
-subtitle: mikasa个人博客
+title: mikasa
+subtitle: mikasa
 description: Java,JavaScript,Node,Json,Sql,前端,数据库,后端
 keywords: Java,JavaScript,Node,Json,Sql,前端,数据库,后端
 author: mikasa
@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: 
+root: 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -96,4 +96,6 @@ douban:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/zcz147258/zcz147258.github.io.git
+  branch: master
