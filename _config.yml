@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: 
-root: 
+url: http://yoursite.com/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -80,7 +80,7 @@ aplayer:
   asset_inject: false
 
 douban:
-  user: mythsman
+  user: 227607531
   builtin: true
   book:
     title: 'book'
